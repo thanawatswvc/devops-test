@@ -1,4 +1,4 @@
-![Oozou](https://cdn.oozou.com/assets/logo-29352bd92fe47c629c5ff5f3885ed9fea425a4cf4db8ccc8ba253ad2fe2d373d.png)
+![Oozou](https://cdn.oozou.com/assets/website/favicon-32x32-31e7864857aa3fc3b35d0c34bfea6b8e0cdeb22f8f6317701c0f7f0df564543f.png)
 
 
 ## Introduction
@@ -18,13 +18,13 @@ Project root has [`index.js`](/index.js) file. It simulates a simple app that ru
 
 ## Exercices
 
-  1. Add a `Dockerfile` to containerize the app, with support for multiple environments (test, development & production)
-  2. Add a `docker-compose.yml` file to setup Node app, `statsd` & the backend. Applicants can use any backends for `statsd` (eg: `Graphite`).
-  3. Use any IAC tools (Cloudformation, Terraform etc.) to prepare the infrastructure
-  4. (Optional) Deploy on any cloud computing platforms
+  1. Add a `Dockerfile` to containerize the app, with support for multiple environments (DEV, UAT & Production)
+  2. Design the cloud infrastructure diagram (prefer AWS) with all the resources that are required for the application(Node app, `statsd` & the backend. Applicants can use any backends for `statsd` eg: `Graphite`)
+  3. Use Terraform to setup the infrastructure
+  4. (Optional) Deploy on the cloud computing platforms
 
 ## Submitting Your Code
 
-Email us your Github repo. We expect meaningful git commits, ideally one commit per exercise with commit messages clearly communicating the intent.
+Email us your Github repo and grant he access to `lycbrian` We expect meaningful git commits, ideally one commit per exercise with commit messages clearly communicating the intent.
 
-In case you deploy it to any cloud platforms, please send us instructions & relevant IAM user credentials.
+If you deploy it to any cloud platforms, please send us instructions & relevant IAM user credentials.
