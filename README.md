@@ -33,8 +33,9 @@ http://localhost/
 - ![Diagram](https://user-images.githubusercontent.com/32988267/229088827-1ee66d59-b53d-42a9-a0c3-26fcbb22742d.png)
 
   3. Use Terraform to setup the infrastructure
-- 
-  4. (Optional) Deploy on the cloud computing platforms![Uploading Diagram.png…]()
+- not yet finish also
+  4. (Optional) Deploy on the cloud computing platforms!
+-
 
 
 ## Submitting Your Code
