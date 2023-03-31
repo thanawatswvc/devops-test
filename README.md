@@ -26,7 +26,7 @@ http://localhost/
 ## Exercices
 
   1. Add a `Dockerfile` to containerize the app, with support for multiple environments (DEV, UAT & Production)
-- I wish i can do this command work for handle each env by build "docker build   --build-arg BUILDTIME_NODE_ENV=staging -t node_helloworld ." but not yet finish
+- I wish i can do this command work for handle each env by build "docker build   --build-arg BUILDTIME_NODE_ENV=uat -t nodestatsd ." but not yet finish
 
 
   2. Design the cloud infrastructure diagram (prefer AWS) with all the resources that are required for the application(Node app, `statsd` & the backend. Applicants can use any backends for `statsd` eg: `Graphite`)
