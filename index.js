@@ -10,7 +10,11 @@ const metrics = new lynx('localhost', 8125);
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
-
+//try to add homepage 
+app.get("/", (req, res) => {
+    res.send("Welcome to HomePage");
+    metrics.increment('HomePage.hitcount');
+});
 
 async function main() {
   // send message to the metrics server
