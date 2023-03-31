@@ -14,6 +14,13 @@ provider "aws" {
     availability_zone = "ap-southeast-1a"
   }
   
+  # Create data subnet 
+  resource "aws_subnet" "application_subnet" {
+    vpc_id            = aws_vpc.nodejs_vpc.id
+    cidr_block        = "10.0.2.0/24"
+    availability_zone = "ap-southeast-1a"
+  }
+
   # Create security group for application instances
   resource "aws_security_group" "nodejs_app_security_group" {
     name_prefix = "nodejs_app_security_group"
