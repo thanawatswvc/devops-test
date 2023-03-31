@@ -1,5 +1,7 @@
 const lynx = require('lynx');
-
+const express = require("express");
+const request = require("request");
+const app = express();
 // instantiate a metrics client
 //  Note: the metric hostname is hardcoded here
 const metrics = new lynx('localhost', 8125);
@@ -8,6 +10,7 @@ const metrics = new lynx('localhost', 8125);
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
+
 
 async function main() {
   // send message to the metrics server
